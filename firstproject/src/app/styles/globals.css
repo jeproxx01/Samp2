@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply global body styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark gray text */
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles (matches your homepage) */
+nav {
+  background-color: #0a2a66 !important; /* Dark blue */
+  color: white !important;
+  padding: 16px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 12px;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
